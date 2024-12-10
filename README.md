@@ -13,9 +13,6 @@ The provided scripts utilize pre-trained models (MusiCNN and VGGish) to predict 
 
 ```plaintext
 music-emotion-recognition/
-├── models/
-│   ├── msd-musicnn/
-│   ├── audioset-vggish/
 ├── predict_subset_MJF.py
 ├── predict_onesong_dynamic.py
 ├── predict_onesong.py
