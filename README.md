@@ -43,7 +43,7 @@ music-emotion-recognition/
      -  Scatter plots showing valence and arousal metrics for each song.
 
 2. Dynamic Emotional Labeling for a Single Song
-   Script: predict_onesong_dynamic.py
+   Script: [predict_onesong_dynamic.py](predict_onesong_dynamic.py) 
 
    Processes a single song by dividing it into fixed-length chunks (e.g., 10 seconds each). Valence and arousal are computed for each chunk, providing a temporal timeline of emotional 
    changes.
@@ -56,7 +56,7 @@ music-emotion-recognition/
      - A CSV file with start and end times, valence, and arousal for each chunk.
        
 3. Studio Recordings vs. Live Concert Recordings
-   Script: Compare results using both predict_onesong.py 
+   Script: Compare results using  [predict_onesong.py](predict_onesong.py) 
 
    This analysis examines the differences in emotional predictions between studio and live recordings of the same song.
 
