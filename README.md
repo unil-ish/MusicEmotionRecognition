@@ -29,7 +29,7 @@ music-emotion-recognition/
 
 ## Script Description 
 1. Static Emotional Labeling for a Subset
-   Script: predict_subset_MJF.py
+   Script: [predict_subset_MJF.py](predict_subset_MJF.py)
 
    This script assigns a single valence, arousal, and emotional label to an entire audio file by averaging predictions across its duration.
 
