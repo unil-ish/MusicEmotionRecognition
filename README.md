@@ -56,15 +56,20 @@ music-emotion-recognition/
      - A CSV file with start and end times, valence, and arousal for each chunk.
        
 3. Studio Recordings vs. Live Concert Recordings
-   Script: Compare results using both predict_onesong.py and predict_onesong_dynamic.py.
+   Script: Compare results using both predict_onesong.py 
 
    This analysis examines the differences in emotional predictions between studio and live recordings of the same song.
 
    Key Features:
+   - Loads audio files from a specified directory structure.
+   - Extracts embeddings using MusiCNN or VGGish.
+   - Predicts valence and arousal using pre-trained classifiers.
+   - Maps predictions to emotional labels based on thresholds.
+   - Outputs:
+     -  CSV file with predictions for each audio file
+     -  Scatter plots showing valence and arousal metrics for the song.
 
-   - Processes studio and live recordings separately.
-   - Compares static and dynamic results to evaluate acoustic variability, performance dynamics, and the impact of signal quality.
-
+  
 ## Usage Instructions
 Step 1: Clone the repository to your local machine:
 
